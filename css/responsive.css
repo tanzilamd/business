@@ -6,6 +6,10 @@
         --bs-gutter-x: 0;
         --bs-gutter-y: 0;
     }
+    .contact-i {
+        display: flex;
+        justify-content: center;
+    }
     .footer-top .col-md-6:nth-child(3) {
         margin-top: 0px;
     }
@@ -44,7 +48,6 @@
 
 @media (max-width: 991.98px) {  
     .top-4 button {
-        font-size: 15px;
         color: white;
         background-color: #71B6D5;
         border: none;
@@ -54,6 +57,7 @@
         height: 100%;
         width: 30%;
         font-size: 12px;
+        float: left;
     }
     .top-4 input {
         background-color: #172226;
@@ -62,6 +66,7 @@
         border: none;
         border-radius: 5px;
         width: 70%;
+        float: left;
     }
     .footer-top {
         padding: 50px 0;
