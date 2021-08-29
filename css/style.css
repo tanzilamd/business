@@ -225,7 +225,10 @@ body {
     outline: none;
     border: none;
     border-radius: 5px;
+    width: 70%;
     padding: 8px;
+    float: left;
+    border-radius: 5px 0px 0px 5px;
 }
 .top-4 button {
     font-size: 15px;
@@ -235,7 +238,10 @@ body {
     outline: none;
     position: absolute;
     right: 0;
+    width: 30%;
     padding: 8px 20px;
+    float: left;
+    border-radius: 0px 5px 5px 0;
 }
 .footer-bottom {
     background-color: #172226;
