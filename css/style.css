@@ -51,6 +51,9 @@ body {
 #offer {
     padding: 100px 0;
 }
+.offer:hover .offer-icon i {
+    color: #FFC154;
+}
 .heading h2 {
     color: #719DCA;
     line-height: 1.6;
@@ -70,11 +73,12 @@ body {
 .offer {
     display: flex;
     justify-content: space-between;
+    margin-top: 20px;
 }
 .offer-icon i {
-    font-size: 36px;
+    font-size: 28px;
 }
-.offer-icon: {
+.offer-icon {
     color: #719DCA;
 }
 .offer-icon {
@@ -147,6 +151,10 @@ body {
     border-radius: 4px;
     font-weight: 600;
     cursor: pointer;
+}
+.portfolio-nav ul li:hover {
+    color: white;
+    background-color: #719DCA;
 }
 .portfolio-nav ul li:first-child {
     color: white;
