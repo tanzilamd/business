@@ -1,11 +1,4 @@
 @media (max-width: 575.98px) {  
-    .container {
-
-    }
-    .row {
-        --bs-gutter-x: 0;
-        --bs-gutter-y: 0;
-    }
     .contact-i {
         display: flex;
         justify-content: center;
